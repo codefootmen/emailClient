@@ -1,0 +1,22 @@
+{
+  "name": "mailclient",
+  "version": "1.0.0",
+  "description": "Simple mail client",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mail",
+    "client"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "imap": "^0.8.19",
+    "nodemailer": "^6.1.1",
+    "util": "^0.12.0",
+    "xoauth2": "^1.2.0"
+  }
+}
